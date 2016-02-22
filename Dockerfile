@@ -2,7 +2,8 @@ FROM rocker/shiny:latest
 
 MAINTAINER Rob Kemp "robert.kemp@state.co.us"
 
-RUN apt-get update && apt-get install -y \
+
+RUN apt-get install -y \
     libssl-dev \
     git
 
